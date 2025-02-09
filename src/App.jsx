@@ -1,33 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { Layout } from './Components/NavBar'
+import imagen1 from './assets/imgs/webexample1.png'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Layout>
+        <h1>Promociona lo que vendes y aunmenta la rentabilidad de tu negocio</h1>
+        <p>Hoy en día tener tu negocio en una página de facebook o en redes sociales no es suficiente.</p>
+        <a href="https://wa.me/593939349490?text=Hola,%20estoy%20interesado%20en%20comprar%20una%página%20web" target='_blank' title='contactar por whatsapp'>contactar</a>
+        <p>Enviame un mensaje y cuentame que tipo de negocio tienes en mente.</p>
+      </Layout>
+      <Layout>
+        <img src={imagen1} alt="miniatura ejemploweb" width={300} height={200}  />
+      </Layout>
+
     </>
   )
 }

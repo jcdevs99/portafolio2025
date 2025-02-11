@@ -1,6 +1,6 @@
 import './App.css'
-import { Layout } from './Components/NavBar'
-import imagen1 from './assets/imgs/webexample1.png'
+import { Layout } from './Components/Layout'
+import imagen1 from './assets/imgs/WE2.png'
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
         <p>Enviame un mensaje y cuentame que tipo de negocio tienes en mente.</p>
       </Layout>
       <Layout>
-        <img src={imagen1} alt="miniatura ejemploweb" width={300} height={200}  />
+        <img src={imagen1} alt="miniatura ejemploweb" className='imageWebSiteExample'  />
       </Layout>
 
     </>

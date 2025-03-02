@@ -7,4 +7,13 @@
 }
 body{
     font-size: 62.5%;
+    font-family:  Roboto, sans-serif;
+    width: 100vw;
+    height: 500vh;
+    overflow-x: hidden;
+    background: rgb(2,0,36);
+    background: linear-gradient(151deg, rgb(46, 46, 46) 0%, rgb(0, 0, 0) 100%);
+    margin-top: 85px;
+    color: white;
+    padding: 5px;
 }

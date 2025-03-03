@@ -8,7 +8,6 @@
 body{
     font-size: 62.5%;
     font-family:  Roboto, sans-serif;
-    width: 100vw;
     height: 500vh;
     overflow-x: hidden;
     background: rgb(2,0,36);
@@ -16,4 +15,11 @@ body{
     margin-top: 85px;
     color: white;
     padding: 5px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    text-align: center;
 }

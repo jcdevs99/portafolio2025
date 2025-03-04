@@ -29,7 +29,7 @@ nav a {
     text-decoration: none;
 }
 nav .active {
-    text-decoration: underline 2px #00caf7;
+    text-decoration: underline 2px rgb(255, 123, 0);
 }
 nav img {
     width: 24px;

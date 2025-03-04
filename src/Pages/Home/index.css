@@ -4,4 +4,13 @@
     border-radius: 50%;
     object-fit: cover;
     object-position: left bottom;
+    border: rgb(255, 123, 0) 2px solid;
+}
+.webPlans img {
+    width: 150px ;
+    height: 150px;
+}
+.containerPlans {
+    display: flex;
+    flex-direction: row;
 }

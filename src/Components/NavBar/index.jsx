@@ -1,7 +1,7 @@
 import './index.css'
 import { NavLink} from "react-router-dom"
 import { Bars2Icon } from '@heroicons/react/24/outline'
-import logo from '../../assets/react.svg'
+import logo from '../../assets/logo.svg'
 
 const NavBar = () => {
     return (
@@ -21,9 +21,6 @@ const NavBar = () => {
                 </NavLink>
                 <NavLink to='/contactar' className={({isActive})=>isActive ? 'active' : ''}>
                     <li>Contactar</li>
-                </NavLink>
-                <NavLink to='/planes' className={({isActive})=>isActive ? 'active' : ''}>
-                    <li>Precios</li>
                 </NavLink>
             </ul>
         </nav>

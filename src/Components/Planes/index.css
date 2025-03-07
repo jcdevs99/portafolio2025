@@ -1,0 +1,9 @@
+.webPlans img {
+    width: 150px ;
+    height: 150px;
+}
+.containerPlans {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

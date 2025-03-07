@@ -1,8 +1,16 @@
+section.container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    text-align: center;
+}
 .miFotografia {
     width: 250px;
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
     object-position: left bottom;
-    border: var(--color-primary) 2px solid;
+    border: var(--primary-color) 2px solid;
 }
